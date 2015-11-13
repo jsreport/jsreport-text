@@ -1,0 +1,13 @@
+{
+  "name": "jsreport-test",
+  "version": "0.0.1",
+  "description": "jsreport recipe for rendering plain text from html",
+  "keywords": [
+    "jsreport"
+  ],
+  "license": "LGPL",
+  "dependencies": {
+  },
+  "author": "Jan Blaha",
+  "devDependencies": {}
+}
