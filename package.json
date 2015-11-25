@@ -5,6 +5,11 @@
   "keywords": [
     "jsreport"
   ],
+  "homepage": "https://github.com/jsreport/jsreport-text",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/jsreport-text.git"
+  },
   "license": "LGPL",
   "dependencies": {
   },
