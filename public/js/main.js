@@ -18,7 +18,10 @@ define(["jquery", "app", "marionette", "backbone", "core/view.base", "underscore
             function renderRecipeMenu() {
                 if (context.template.get("recipe") === "text") {
                     view = new View({ model: context.template});
-                    context.extensionsRegion.show(view, "text");
+
+                    setTimeout(function() {
+                        context.extensionsRegion.show(view, "text");
+                    }, 0);
                 } else {
                     if (view != null)
                         $(view.el).remove();
