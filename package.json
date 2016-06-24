@@ -36,7 +36,10 @@
     "eslint": "2.11.1",
     "eslint-config-standard-jsx": "1.2.1",
     "eslint-plugin-babel": "3.2.0",
-    "jsreport-studio-dev": "0.2.8",
+    "jsreport-studio-dev": "1.0.0",
     "standard": "7.1.2"
-  }
+  },
+  "files": [
+    "lib", "studio", "index.js", "jsreport.config.js"
+  ]
 }
